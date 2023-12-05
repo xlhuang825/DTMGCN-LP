@@ -1,0 +1,12 @@
+2023-11-26 22:45:35,728 [INFO]: ----------------------------------------------------------------------------------------------------
+2023-11-26 22:45:35,728 [INFO]: model_parameters: Namespace(adj_file='london_adj.csv', batch_size=32, device='cuda', feat_file='augsburg_flow.csv', gamma=0.1, hidden_size=64, l2_reg=0.0001, lr=0.01, lr_scheduler=False, mode='train', model='HA', num_early_stop_epochs=10, num_epochs=100, pre_length=12, random_seed=2012, save_model=True, seq_length=12, step_size=10, train_ratio=0.6, used_best_model=True, val_ratio=0.2)
+2023-11-26 22:45:40,240 [INFO]: Testing...
+2023-11-26 22:45:40,269 [INFO]: RMSE: 89.2093, MAE: 52.9601,  WMAPE: 35.4214%
+2023-11-26 22:46:38,854 [INFO]: ----------------------------------------------------------------------------------------------------
+2023-11-26 22:46:38,855 [INFO]: model_parameters: Namespace(adj_file='london_adj.csv', batch_size=32, device='cuda', feat_file='augsburg_flow.csv', gamma=0.1, hidden_size=64, l2_reg=0.0001, lr=0.01, lr_scheduler=False, mode='train', model='HA', num_early_stop_epochs=10, num_epochs=100, pre_length=6, random_seed=2012, save_model=True, seq_length=12, step_size=10, train_ratio=0.6, used_best_model=True, val_ratio=0.2)
+2023-11-26 22:46:43,395 [INFO]: Testing...
+2023-11-26 22:46:43,424 [INFO]: RMSE: 78.5725, MAE: 46.4779,  WMAPE: 30.7721%
+2023-11-26 22:49:03,002 [INFO]: ----------------------------------------------------------------------------------------------------
+2023-11-26 22:49:03,003 [INFO]: model_parameters: Namespace(adj_file='london_adj.csv', batch_size=32, device='cuda', feat_file='augsburg_flow.csv', gamma=0.1, hidden_size=64, l2_reg=0.0001, lr=0.01, lr_scheduler=False, mode='train', model='HA', num_early_stop_epochs=10, num_epochs=100, pre_length=3, random_seed=2012, save_model=True, seq_length=12, step_size=10, train_ratio=0.6, used_best_model=True, val_ratio=0.2)
+2023-11-26 22:49:07,819 [INFO]: Testing...
+2023-11-26 22:49:07,847 [INFO]: RMSE: 73.4399, MAE: 43.1359,  WMAPE: 28.3617%
